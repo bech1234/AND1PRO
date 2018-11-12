@@ -2,9 +2,11 @@ package com.example.andreasbech.and1pro;
 
 import android.media.Image;
 
-import java.sql.Date;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 
+import androidx.annotation.NonNull;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
@@ -22,7 +24,6 @@ public class Note {
 
 
     public Note(String title, String date, String text, String bookTitle) {
-
         this.bookTitle = bookTitle;
         this.title = title;
         this.date = date;
@@ -79,4 +80,9 @@ public class Note {
 
     }
 
+    /*@Override
+    If used implement:  implements Comparable<Note> in the class declaration
+    public int compareTo(@NonNull Note o) {
+        return o.date > date ? 1 : 0;
+    }*/
 }

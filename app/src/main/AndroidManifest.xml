@@ -9,13 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"></activity>
+        <activity
+            android:name=".SubmitNote"
+            android:label="@string/title_activity_submit_note" />
+        <activity
+            android:name=".SubmitBook"
+            android:label="@string/title_activity_submit_book">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".BookList"
+            android:label="@string/title_activity_book_list"></activity>
     </application>
 
 </manifest>

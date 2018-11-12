@@ -20,6 +20,7 @@ public class Book  {
         this.date = date;
 
     }
+
     //Id
     public void setId(int id) {
         this.id = id;

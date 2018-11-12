@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">AND1PRO</string>
+    <string name="title_activity_submit_note">SubmitNote</string>
+    <string name="title_activity_submit_book">SubmitBook</string>
+    <string name="title_activity_book_list">BookList</string>
 </resources>
